@@ -7,3 +7,12 @@ C:\Users\ahao\Desktop\C#\brickbreaker\brickbreaker\obj\Debug\brickbreaker.Proper
 C:\Users\ahao\Desktop\C#\brickbreaker\brickbreaker\obj\Debug\brickbreaker.csproj.GenerateResource.Cache
 C:\Users\ahao\Desktop\C#\brickbreaker\brickbreaker\obj\Debug\brickbreaker.exe
 C:\Users\ahao\Desktop\C#\brickbreaker\brickbreaker\obj\Debug\brickbreaker.pdb
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\bin\Debug\brickbreaker.exe.config
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\bin\Debug\brickbreaker.exe
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\bin\Debug\brickbreaker.pdb
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.csprojAssemblyReference.cache
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.form1.resources
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.Properties.Resources.resources
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.csproj.GenerateResource.cache
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.exe
+C:\Users\ahao\Desktop\brickbreaker\brickbreaker\obj\Debug\brickbreaker.pdb

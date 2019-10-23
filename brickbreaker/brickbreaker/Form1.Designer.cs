@@ -65,8 +65,8 @@
             // 
             // P
             // 
-            this.P.BackColor = System.Drawing.Color.Black;
-            this.P.Location = new System.Drawing.Point(12, 378);
+            this.P.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.P.Location = new System.Drawing.Point(12, 585);
             this.P.Name = "P";
             this.P.Size = new System.Drawing.Size(100, 11);
             this.P.TabIndex = 1;
@@ -76,13 +76,13 @@
             // 
             // restart
             // 
-            this.restart.Font = new System.Drawing.Font("標楷體", 12F);
+            this.restart.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.restart.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.restart.Location = new System.Drawing.Point(609, 217);
+            this.restart.Location = new System.Drawing.Point(938, 220);
             this.restart.Name = "restart";
-            this.restart.Size = new System.Drawing.Size(82, 32);
+            this.restart.Size = new System.Drawing.Size(112, 32);
             this.restart.TabIndex = 2;
-            this.restart.Text = "重設";
+            this.restart.Text = "Reset";
             this.restart.UseVisualStyleBackColor = true;
             this.restart.Click += new System.EventHandler(this.restart_Click);
             // 
@@ -93,45 +93,49 @@
             this.levelgroupbox.Controls.Add(this.speed2);
             this.levelgroupbox.Controls.Add(this.speed1);
             this.levelgroupbox.Cursor = System.Windows.Forms.Cursors.Default;
-            this.levelgroupbox.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.levelgroupbox.Location = new System.Drawing.Point(609, 9);
+            this.levelgroupbox.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.levelgroupbox.Location = new System.Drawing.Point(938, 12);
             this.levelgroupbox.Name = "levelgroupbox";
             this.levelgroupbox.Padding = new System.Windows.Forms.Padding(2);
-            this.levelgroupbox.Size = new System.Drawing.Size(82, 188);
+            this.levelgroupbox.Size = new System.Drawing.Size(112, 188);
             this.levelgroupbox.TabIndex = 4;
             this.levelgroupbox.TabStop = false;
-            this.levelgroupbox.Text = "球速";
+            this.levelgroupbox.Text = "SPEED";
+            this.levelgroupbox.Enter += new System.EventHandler(this.levelgroupbox_Enter);
             // 
             // speed4
             // 
             this.speed4.AutoSize = true;
+            this.speed4.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.speed4.Location = new System.Drawing.Point(5, 143);
             this.speed4.Name = "speed4";
-            this.speed4.Size = new System.Drawing.Size(70, 24);
+            this.speed4.Size = new System.Drawing.Size(97, 29);
             this.speed4.TabIndex = 3;
-            this.speed4.Text = "隨機";
+            this.speed4.Text = "Random";
             this.speed4.UseVisualStyleBackColor = true;
             this.speed4.Click += new System.EventHandler(this.speed4_Click);
             // 
             // speed3
             // 
             this.speed3.AutoSize = true;
+            this.speed3.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.speed3.Location = new System.Drawing.Point(5, 108);
             this.speed3.Name = "speed3";
-            this.speed3.Size = new System.Drawing.Size(70, 24);
+            this.speed3.Size = new System.Drawing.Size(68, 29);
             this.speed3.TabIndex = 2;
-            this.speed3.Text = "更快";
+            this.speed3.Text = "Fast";
             this.speed3.UseVisualStyleBackColor = true;
             this.speed3.Click += new System.EventHandler(this.speed3_Click);
             // 
             // speed2
             // 
             this.speed2.AutoSize = true;
+            this.speed2.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.speed2.Location = new System.Drawing.Point(5, 73);
             this.speed2.Name = "speed2";
-            this.speed2.Size = new System.Drawing.Size(70, 24);
+            this.speed2.Size = new System.Drawing.Size(89, 29);
             this.speed2.TabIndex = 1;
-            this.speed2.Text = "稍快";
+            this.speed2.Text = "Normol";
             this.speed2.UseVisualStyleBackColor = true;
             this.speed2.Click += new System.EventHandler(this.speed2_Click);
             // 
@@ -139,24 +143,26 @@
             // 
             this.speed1.AutoSize = true;
             this.speed1.Checked = true;
+            this.speed1.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.speed1.Location = new System.Drawing.Point(5, 38);
             this.speed1.Name = "speed1";
-            this.speed1.Size = new System.Drawing.Size(70, 24);
+            this.speed1.Size = new System.Drawing.Size(72, 29);
             this.speed1.TabIndex = 0;
             this.speed1.TabStop = true;
-            this.speed1.Text = "普通";
+            this.speed1.Text = "Slow";
             this.speed1.UseVisualStyleBackColor = true;
+            this.speed1.CheckedChanged += new System.EventHandler(this.speed1_CheckedChanged);
             this.speed1.Click += new System.EventHandler(this.speed1_Click);
             // 
             // start
             // 
-            this.start.Font = new System.Drawing.Font("標楷體", 12F);
+            this.start.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.start.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.start.Location = new System.Drawing.Point(609, 255);
+            this.start.Location = new System.Drawing.Point(938, 258);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(82, 32);
+            this.start.Size = new System.Drawing.Size(112, 32);
             this.start.TabIndex = 5;
-            this.start.Text = "開始";
+            this.start.Text = "Start";
             this.start.UseVisualStyleBackColor = true;
             this.start.Click += new System.EventHandler(this.start_Click);
             // 
@@ -164,9 +170,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(36, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(47, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(500, 262);
+            this.pictureBox1.Size = new System.Drawing.Size(709, 480);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
@@ -174,21 +181,22 @@
             // scoree
             // 
             this.scoree.AutoSize = true;
-            this.scoree.Location = new System.Drawing.Point(621, 349);
+            this.scoree.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.scoree.Location = new System.Drawing.Point(938, 348);
             this.scoree.Name = "scoree";
-            this.scoree.Size = new System.Drawing.Size(52, 15);
+            this.scoree.Size = new System.Drawing.Size(80, 25);
             this.scoree.TabIndex = 7;
             this.scoree.Text = "SCORE";
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("標楷體", 12F);
+            this.button1.Font = new System.Drawing.Font("Martina", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.button1.Location = new System.Drawing.Point(609, 293);
+            this.button1.Location = new System.Drawing.Point(938, 296);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(82, 32);
+            this.button1.Size = new System.Drawing.Size(112, 32);
             this.button1.TabIndex = 8;
-            this.button1.Text = "不死";
+            this.button1.Text = "Un-died";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -196,7 +204,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(702, 433);
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.ClientSize = new System.Drawing.Size(1062, 673);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.scoree);
             this.Controls.Add(this.B);

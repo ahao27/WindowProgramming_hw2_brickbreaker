@@ -25,7 +25,7 @@ namespace brickbreaker
             int index = 0;
             for (int i = 0; i < 9; i++)
             {
-                for (int j = 0; j < 7; j++)
+                for (int j = 0; j < 10; j++)
                 {
                     bricks[index] = Brick(60 * i+30 , 40 * j);
                     this.Controls.Add(bricks[index]);
@@ -45,7 +45,7 @@ namespace brickbreaker
             int index = 0;
             for (int i = 0; i < 9; i++)
             {
-                for (int j = 0; j < 7; j++)
+                for (int j = 0; j < 10; j++)
                 {
                     bricks[index] = Brick(60 * i+30 , 40 * j);
                     this.Controls.Add(bricks[index]);
@@ -95,7 +95,7 @@ namespace brickbreaker
                 else if( B.Top >this.ClientSize.Height)
                 {
                     timer1.Stop();
-                    MessageBox.Show("lose","遊戲結束", MessageBoxButtons.OK, MessageBoxIcon.None);
+                    MessageBox.Show("lose","Game Over", MessageBoxButtons.OK, MessageBoxIcon.None);
                 }                
             }
 
@@ -126,7 +126,7 @@ namespace brickbreaker
                 level = rng.Next(-1, 5);
             }
 
-            if (score == 63)
+            if (score == 90)
             {
                 timer1.Stop();
                 MessageBox.Show("win", "遊戲結束", MessageBoxButtons.OK, MessageBoxIcon.None);
@@ -187,6 +187,16 @@ namespace brickbreaker
         private void button1_Click(object sender, EventArgs e)
         {
             cheat = 1;
+        }
+
+        private void levelgroupbox_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void speed1_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void restart_Click(object sender, EventArgs e)
